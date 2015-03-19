@@ -2,7 +2,7 @@
 # Makefile for Linux disk tools
 #
 
-BUILD = ../../../build
+BUILD = ../build
 
 DIRS = mkboot mvstrt
 

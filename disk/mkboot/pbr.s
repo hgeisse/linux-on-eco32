@@ -1,5 +1,5 @@
 ;
-; br.s -- the boot record
+; pbr.s -- the partition boot record
 ;
 
 ; Runtime environment:

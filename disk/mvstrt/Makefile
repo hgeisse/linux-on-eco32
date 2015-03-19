@@ -2,7 +2,7 @@
 # Makefile to build the mvstrt program
 #
 
-BUILD = ../../../../build
+BUILD = ../../build
 
 .PHONY:		all install clean
 

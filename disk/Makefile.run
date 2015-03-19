@@ -1,0 +1,14 @@
+#
+# Makefile for building a Linux partition
+#
+
+BUILD = ../..
+DISK = ../disk.img
+PART = 4
+
+all:
+		cat pbr.bin mvstrt.bin vmlinux.bin >part.img
+		$(BUILD)/bin/wrpart $(DISK) $(PART) part.img
+
+clean:
+		rm -f *~ part.img
