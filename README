@@ -1,0 +1,27 @@
+
+Welcome to Linux-on-ECO32!
+
+This little project offers the possibility to run Linux on the
+ECO32 system, which is a system-on-chip, written in synthesizable
+Verilog, together with a simulator, so that one can experiment
+without the need to have an FPGA board available.
+
+NOTE 1: It is absolutely necessary to first download and build
+the ECO32 project, which is available on the OpenCores platform:
+
+        http://opencores.org/project,eco32
+
+NOTE 2: The Linux system (kernel as well as userland programs)
+is only used by this project. The system has been ported, built
+and tested by Stefan Kristiansson in his project
+
+        http://github.com/skristiansson/eco32-linux
+
+If you have any questions (or are eager to contribute to this
+project), don't hesitate to contact the ECO32 team by email to
+
+        Hellwig.Geisse@mni.thm.de
+
+Enjoy!
+Hellwig Geisse
+
