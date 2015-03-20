@@ -4,7 +4,7 @@
 
 BUILD = ../build
 
-DIRS = mkboot mvstrt
+DIRS = mkpboot mvstrt
 
 .PHONY:		all install clean
 
