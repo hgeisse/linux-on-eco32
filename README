@@ -2,10 +2,11 @@
 Welcome to Linux-on-ECO32!
 
 This little project offers the possibility to run Linux on the
-ECO32 system, which is a system-on-chip, written in synthesizable
-Verilog, together with a simulator, so that one can experiment
+ECO32 system, which is a system-on-chip (written in synthesizable
+Verilog), together with a simulator, so that one can experiment
 without the need to have an FPGA board available. Linux is placed
-onto a disk partition and can be bootstrapped from there.
+onto a disk partition of a simulated disk and can be bootstrapped
+from there.
 
 NOTE 1: The Linux system itself (kernel and userland programs) is
 merely used by this project. The system has been ported, built and
