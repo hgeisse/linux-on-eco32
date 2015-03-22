@@ -20,7 +20,7 @@ install:
 		  $(MAKE) -C $$i install ; \
 		done
 		cp Makefile.run $(BUILD)/run/fs-Linux/Makefile
-		cp ../os-bin/vmlinux.bin $(BUILD)/run/fs-Linux
+		cp ../os-bin/* $(BUILD)/run/fs-Linux
 
 clean:
 		for i in $(DIRS) ; do \
