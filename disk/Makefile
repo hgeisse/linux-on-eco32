@@ -16,10 +16,11 @@ all:
 install:
 		mkdir -p $(BUILD)/run/fs-Linux
 		rm -rf $(BUILD)/run/fs-Linux/*
-		cp Makefile.run $(BUILD)/run/fs-Linux/Makefile
 		for i in $(DIRS) ; do \
 		  $(MAKE) -C $$i install ; \
 		done
+		cp Makefile.run $(BUILD)/run/fs-Linux/Makefile
+		cp ../os-bin/vmlinux.bin $(BUILD)/run/fs-Linux
 
 clean:
 		for i in $(DIRS) ; do \

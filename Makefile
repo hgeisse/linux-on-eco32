@@ -4,7 +4,7 @@
 
 VERSION = 0.1
 
-DIRS = disk os-bin
+DIRS = disk
 BUILD = ./build
 
 all:		build-link
