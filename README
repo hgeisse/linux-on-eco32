@@ -10,19 +10,28 @@ from there.
 
 NOTE 1: The Linux system itself (kernel and userland programs) is
 merely used by this project. The system has been ported, built and
-tested by Stefan Kristiansson in his project
+tested by Stefan Kristiansson in this project:
 
         http://github.com/skristiansson/eco32-linux
+
+There's no need to download this project; all necessary binaries
+are included here.
 
 NOTE 2: It is absolutely necessary to first download and build
 the ECO32 project, which is available on the OpenCores platform:
 
         http://opencores.org/project,eco32
 
-NOTE 3: In order to utilize the various tools from the ECO32
-project, you will be asked to supply a path to the "build"
-directory of the ECO32 project. The path depends on your local
-installation, but usually ends in .../eco32/trunk/build.
+NOTE 3: After building ECO32 you can build Linux-on-ECO32. In
+order to utilize the various tools from the ECO32 project, you
+will be asked to supply a path to the "build" directory of the
+ECO32 project. The path depends on your local installation, but
+usually ends in .../eco32/trunk/build.
+
+NOTE 4: After building Linux-on-ECO32, go back to the ECO32
+tree. In .../eco32/trunk/build/run you can build a disk and
+run the simulator as usual (make run-sim). The disk will be
+populated with a Linux partition.
 
 If you have any questions (or are eager to contribute to this
 project), don't hesitate to contact the ECO32 team by email to
