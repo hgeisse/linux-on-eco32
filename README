@@ -30,8 +30,8 @@ usually ends in .../eco32/build.
 
 NOTE 4: After building Linux-on-ECO32, go back to the ECO32
 tree. In .../eco32/build/run you can build a disk and run the
-simulator as usual (make run-sim). The disk will be populated
-with a Linux partition.
+simulator as usual (make run-sim-dsk or make run-sim-sdc). The
+disk or SD card image will be populated with a Linux partition.
 
 If you have any questions (or are eager to contribute to this
 project), don't hesitate to contact the ECO32 team by email to
