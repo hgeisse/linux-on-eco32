@@ -49,6 +49,7 @@ start1:
 	bgt	$21,$0,start1
 	add	$4,$0,mvmsg		; say what is going on
 	jal	msgout
+	cctl	7			; sync caches
 	add	$8,$0,loadaddr		; start executing mvstrt
 	jr	$8
 
