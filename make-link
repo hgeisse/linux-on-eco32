@@ -1,5 +1,10 @@
-#!/bin/sh
-BUILD=$1
+#!/bin/bash
+if [[ $# < 1 ]]
+then
+  BUILD=./build
+else
+  BUILD=$1
+fi
 echo "testing for link to ECO32 build directory..."
 if [ ! -L $BUILD ]
 then
